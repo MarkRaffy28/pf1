@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Table, Row, Col } from 'react-bootstrap';
+import "./ok.css";
 
 const tableItems = [
   { src: "https://dl.dropbox.com/scl/fi/58i4cmh097k9nk03djayy/CarrotProduce.png?rlkey=gaagyb0drm5e6m5z8tdyaoy6f&st=absx0ppm&dl=0", name: "Carrot", price: "10", description: "A crunchy orange root vegetable rich in vitamin A and good for eyesight." },
