@@ -1,0 +1,594 @@
+{
+  "tiers": [
+    {
+      "name" : "uncommon",
+      "img" : "https://dl.dropbox.com/scl/fi/32yp3ns18fmzy70nwip58/UncommonIcon.png?rlkey=23vrrxh4pyu6e6vfdhwnvtsna&st=z2mcih1y&dl=0"
+    },
+    {
+      "name" : "common",
+      "img" : "https://dl.dropbox.com/scl/fi/iqqoxa6g93woqxm21yv48/CommonIcon.png?rlkey=vc22zx2q3kuqe12dwcdb90knn&st=lou4bktp&dl=0"
+    },
+    {
+      "name" : "rare",
+      "img" : "https://dl.dropbox.com/scl/fi/d2i6xh18vncmg8ibo2zfz/RareIcon.png?rlkey=807r2fagwwumin8wz4e2dz69k&st=pp5mf7db&dl=0"
+    },
+    {
+      "name" : "legendary",
+      "img" : "https://dl.dropbox.com/scl/fi/m0par2tohhnl7fb67h2oi/LegendaryIcon.png?rlkey=lg27o1z71lorw50nu64wcwa76&st=ttsuy0je&dl=0"
+    },
+    {
+      "name" : "mythical",
+      "img" : "https://dl.dropbox.com/scl/fi/pjoy8n2y3u1uj2kpr2j0f/Mythical_Icon.png?rlkey=k4jye71r9b6gvyipq6340zsdj&st=w0qx8vqf&dl=0"
+    },
+    {
+      "name" : "divine",
+      "img" : "https://dl.dropbox.com/scl/fi/wug5pfqqk2fexxzljuqq2/Divine.png?rlkey=dsfvme6zxkx9yfbh59jlj4ms7&st=5zlkeot1&dl=0"
+    },
+    {
+      "name" : "prismatic",
+      "img" : "https://dl.dropbox.com/scl/fi/ake09temgwg20c00l10sf/PrismaticTier.gif?rlkey=i18vjy7n5p07tmkap5qfz0vqa&st=97pym8rm&dl=0"
+    },
+    {
+      "name" : "transcendent",
+      "img" : "https://dl.dropbox.com/scl/fi/o9bi2bz7rhvgr9psmvpdf/Tra.gif?rlkey=k6vr92wyqr1ycrh1skf13opl1&st=g4ote4of&dl=0"
+    }
+  ],
+  
+  "recipes": [
+    {
+      "name": "Soup",
+      "img": "https://dl.dropbox.com/scl/fi/di809hyiehugfuihl1gqa/SoupIcon.png?rlkey=3vkpan66lycxijzdc9w606r20&st=8aq2q9um&dl=0",
+      "types": [
+        {
+          "type": "Common",
+          "items": ["Carrot x1"]
+        },
+        {
+          "type": "Uncommon",
+          "items": ["Sugar Apple x1", "Watermelon x1"]
+        }
+      ]
+    },
+    {
+      "name": "Cake",
+      "img": "https://dl.dropbox.com/scl/fi/9tke25s4bejajp5ja7s5y/CakeIcon.png?rlkey=ydsha6bea2z7r602pscqwy1ca&st=85bml23j&dl=0",
+      "types": [
+        {
+          "type": "Uncommon",
+          "items": ["Strawberry x1", "Tomato x1", "Corn x1", "Apple x1"]
+        },
+        {
+          "type": "Rare",
+          "items": ["Watermelon x2", "Corn x2"]
+        },
+        {
+          "type": "Mythical",
+          "items": ["Lucky Bamboo x1", "Sugar Apple x3", "Corn x1"]
+        },
+        {
+          "type": "Prismatic",
+          "items": ["Banana x1", "Bone Blossom x3", "Sugar Apple x1"]
+        }
+      ]
+    },
+    {
+      "name": "Donut",
+      "img": "https://dl.dropbox.com/scl/fi/145mzlb4z487ym02fkzmq/DonutIcon.png?rlkey=aq84d50lr1r54g5n5pmqbp4mm&st=eefx9pmc&dl=0",
+      "types": [
+        {
+          "type": "Uncommon",
+          "items": ["Corn x1", "Blueberry x1", "Strawberry x1"]
+        },
+        {
+          "type": "Divine",
+          "items": ["Bone Blossom x1", "Sugar Apple x1", "Banana x1"]
+        },
+        {
+          "type": "Prismatic",
+          "items": ["Bone Blossom x4", "Sugarglaze x1"]
+        }
+      ]
+    },
+    {
+      "name": "Sandwich",
+      "img": "https://dl.dropbox.com/scl/fi/9huyu68ft0f3qec7k13yd/SandwichIcon.png?rlkey=4hk0c8e9h6oxt4u6cvi9noi9r&st=cei2goig&dl=0",
+      "types": [
+        {
+          "type": "Common",
+          "items": ["Tomato x2", "Corn x1"]
+        },
+        {
+          "type": "Legendary",
+          "items": ["Cacao x1", "Tomato x1", "Corn x1"]
+        }
+      ]
+    },
+    {
+      "name": "Pie",
+      "img": "https://dl.dropbox.com/scl/fi/xovrty0b43gdudu1exd91/PieIcon.png?rlkey=qls9qm4fldo3ihyvted8atxit&st=iary77of&dl=0",
+      "types": [
+        {
+          "type": "Rare",
+          "items": ["Pumpkin x1", "Apple x1"]
+        },
+        {
+          "type": "Legendary",
+          "items": ["Corn x1", "Coconut x1"]
+        },
+        {
+          "type": "Mythical",
+          "items": ["Coconut x3", "Mango x1", "Corn x1"]
+        },
+        {
+          "type": "Divine",
+          "items": ["Ember Lily x1", "Coconut x1"]
+        },
+        {
+          "type": "Prismatic",
+          "items": ["Bone Blossom x4", "Pumpkin x1"]
+        }
+      ]
+    },
+    {
+      "name": "Burger",
+      "img": "https://dl.dropbox.com/scl/fi/lhutvcnzl0w3mxwd3rvzw/BurgerIcon.png?rlkey=5svzuijreuc6nyhlbu7nrcopz&st=okye615l&dl=0",
+      "types": [
+        {
+          "type": "Rare",
+          "items": ["Pepper x1", "Corn x1", "Tomato x1", "Mint x1 (may not be needed)"]
+        },
+        {
+          "type": "Legendary",
+          "items": ["Corn x1", "Tomato x2", "Ember Lily x2"]
+        },
+        {
+          "type": "Mythical",
+          "items": ["Pepper x1", "Corn x1", "Tomato x1", "Bone Blossom x1", "Beanstalk x1"]
+        }
+      ]
+    },
+    {
+      "name": "Hotdog",
+      "img": "https://dl.dropbox.com/scl/fi/4a8rs8f871197gtqbdsgl/HotDogIcon.png?rlkey=vgyx0mycea3r2i0ego5glkhse&st=28o99kka&dl=0",
+      "types": [
+        {
+          "type": "Legendary",
+          "items": ["Pepper x1", "Corn x1"]
+        },
+        {
+          "type": "Mythical",
+          "items": ["Ember Lily x1", "Corn x1"]
+        },
+        {
+          "type": "Prismatic",
+          "items": ["Bone Blossom x2", "Corn x1"]
+        }
+      ]
+    },
+    {
+      "name": "Waffle",
+      "img": "https://dl.dropbox.com/scl/fi/62t1vkw5s5lkqy9tg9npa/WaffleIcon.png?rlkey=cn2ytgvtza3v54q7x26znnavv&st=47yhzcgh&dl=0",
+      "types": [
+        {
+          "type": "Divine",
+          "items": ["Sugar Apple x1", "Coconut x1"]
+        },
+        {
+          "type": "Legendary",
+          "items": ["Coconut x1", "Maple Apple x1", "Banana x3"]
+        },
+        {
+          "type": "Mythical",
+          "items": ["Tranquil Bloom x1", "Starfruit x1", "Coconut x1"]
+        }
+      ]
+    },
+    {
+      "name": "Ice Cream",
+      "img": "https://dl.dropbox.com/scl/fi/rxvnfdtcebfgj6vozoy9v/IceCreamIcon.png?rlkey=6n32tiyu8plyexbq32a7o69i0&st=9ecvlkav&dl=0",
+      "types": [
+        {
+          "type": "Uncommon",
+          "items": ["Corn x1", "Blueberry x1", "Strawberry x1"]
+        },
+        {
+          "type": "Rare",
+          "items": ["Watermelon x1", "Corn x1"]
+        },
+        {
+          "type": "Legendary",
+          "items": ["Banana x1", "Watermelon x1"]
+        },
+        {
+          "type": "Mythical",
+          "items": ["Banana x1", "Pepper x1"]
+        }
+      ]
+    },
+    {
+      "name": "Sushi",
+      "img": "https://dl.dropbox.com/scl/fi/5jbo8ym0tlho2hh3j969e/SushiIcon.png?rlkey=8v9cxxq7edht49qo6zilpp8wb&st=4xd9ru0h&dl=0",
+      "types": [
+        {
+          "type": "Rare",
+          "items": ["Bamboo x4", "Corn x1"]
+        },
+        {
+          "type": "Divine",
+          "items": ["Bamboo x3", "Corn x1", "Bamboo x1"]
+        }
+      ]
+    },
+    {
+      "name": "Pizza",
+      "img": "https://dl.dropbox.com/scl/fi/qmiwb0bcewg4an7bdqjyo/PizzaIcon.png?rlkey=lkyg16i5aklyneu5ptovgfbwl&st=dxpl3skt&dl=0",
+      "types": [
+        {
+          "type": "Legendary",
+          "items": ["Corn x1", "Tomato x1", "Pepper x1", "Sugar Apple x1 (may not be needed)"]
+        }
+      ]
+    },
+    {
+      "name": "Salad",
+      "img": "https://dl.dropbox.com/scl/fi/bc4ddg7qoudr80l3m00qu/SaladIcon.png?rlkey=toiueph8j9lzil38sa5nihp8s&st=a44ex3sa&dl=0",
+      "types": [
+        {
+          "type": "Common",
+          "items": ["Bamboo x1", "Carrot x3"]
+        },
+        {
+          "type": "Uncommon",
+          "items": ["Orange Tulip x1", "Bamboo x1", "Carrot x1", "Tomato x1"]
+        },
+        {
+          "type": "Rare",
+          "items": ["Corn x1", "Tomato x1"]
+        },
+        {
+          "type": "Mythical",
+          "items": ["Beanstalk x1", "Tomato x1"]
+        },
+        {
+          "type": "Divine",
+          "items": ["Sugar Apple x4", "Tomato x1"]
+        },
+        {
+          "type": "Prismatic",
+          "items": ["Bone Blossom x4", "Tomato x1"]
+        }
+      ]
+    },
+    {
+      "name": "Smoothie",
+      "img" : "https://dl.dropbox.com/scl/fi/wbssjx840mbwfguqskibx/SmoothieIcon.png?rlkey=41k662ogwmza2yqtajh1b5cch&st=8v0pf6rz&dl=0",
+      "types": [
+        { 
+          "type": "Uncommon", 
+          "items": ["Carrot x1", "Apple x1"] 
+        },
+        { 
+          "type": "Legendary", 
+          "items": ["Tomato x4", "Green Apple x1"] 
+        },
+        { 
+          "type": "Mythical", 
+          "items": ["Apple x5"] 
+        },
+        { 
+          "type": "Divine", 
+          "items": ["Mango x5"] 
+        },
+        { 
+          "type": "Prismatic", 
+          "items": ["Sugar Apple x1", "Ember Lily x1"] 
+        },
+        { 
+          "type": "Transcendent", 
+          "items": ["Sugar Apple x1", "Bone Blossom x4"] 
+        }
+      ]
+    },
+    {
+      "name": "Sweet Tea",
+      "img" : "https://dl.dropbox.com/scl/fi/jdtneg4pzd01zk35coqok/SweetTeaIcon.png?rlkey=xw6p9km90oqbgqdhy6xwetrgk&st=0zbzkfe7&dl=0",
+      "types": [
+        { 
+          "type": "Rare", 
+          "items": ["Blueberry x2", "Serenity x2"] 
+        },
+        { 
+          "type": "Legendary", 
+          "items": ["Mint x1", "Pineapple x1"] 
+        },
+        { 
+          "type": "Mythical", 
+          "items": ["Serenity x1", "Mango x1"] 
+        },
+        { 
+          "type": "Divine", 
+          "items": ["Burning Bud x1", "Sugarglaze x1"] 
+        },
+        { 
+          "type": "Prismatic",
+          "items": ["Sugar Apple x4", "Burning Bud x1"]
+        },
+        { 
+          "type": "Transcendent", 
+          "items": ["Moon Blossom x2", "Bone Blossom x3"] 
+        }
+      ]
+    },
+    {
+      "name" : "Porridge",
+      "img" : "https://dl.dropbox.com/scl/fi/ynaarco2ncigouunx1i68/PorridgeIcon.png?rlkey=x97ciespe1hb0gxqixcgbkofs&st=azltjxcw&dl=0",
+      "types": [
+        { 
+          "type": "Rare", 
+          "items": ["Cauliflower x1", "Corn x1", "Lingonberry x1"] 
+        },
+        { 
+          "type": "Legendary", 
+          "items": ["Corn x5"] 
+        },
+        { 
+          "type": "Mythical", 
+          "items": ["Sugarglaze x2", "Blood Banana x3"] 
+        },
+        { 
+          "type": "Divine", 
+          "items": ["Corn x1", "Sugarglaze x1", "Sugar Apple x3"] 
+        },
+        { 
+          "type": "Prismatic", 
+          "items": ["Corn x1", "Sugar Apple x1", "Bone Blossom x3"] 
+        },
+        { 
+          "type": "Transcendent",
+          "items": ["Banana x1", "Bone Blossom x4"] 
+        }
+      ]
+    },
+    {
+      "name": "Candy Apple",
+      "img" : "https://dl.dropbox.com/scl/fi/dnviucefjzxohwtnbmxh0/CandyAppleIcon.png?rlkey=386bpig5lro2qmpl6ysgu746c&st=npb4mm8i&dl=0",
+      "types": [
+        { 
+          "type": "Legendary", 
+          "items": ["Sugar Apple x1", "Blueberry x1"] 
+        },
+        { 
+          "type": "Mythical", 
+          "items": ["Sugar Apple x1", "Blueberry x1"] 
+        },
+        { 
+          "type": "Divine", 
+          "items": ["Sugar Apple x1", "Apple x1"] 
+        },
+        { 
+          "type": "Prismatic", 
+          "items": ["Sugar Apple x3", "Kiwi x2"] 
+        },
+        { 
+          "type": "Transcendent", 
+          "items": ["Sugar Apple x2", "Bone Blossom x3"] 
+        }
+      ]
+    },
+    {
+      "name": "Spaghetti",
+      "img" : "https://dl.dropbox.com/scl/fi/xrkm2r65vumyz0ot33fnu/SpaghettiIcon.png?rlkey=jm3mo608yygaf3yzk0us2zlgq&st=zie3sugf&dl=0",
+      "types": [
+        { 
+          "type": "Legendary", 
+          "items": ["Corn x1", "Bell Pepper x1", "Cauliflower x1", "Tomato x1"] 
+        },
+        { 
+          "type": "Mythical", 
+          "items": ["Tomato x1", "Cauliflower x1", "Taco Fern x1", "Beanstalk x1"] 
+        },
+        { 
+          "type": "Divine", 
+          "items": ["Tomato x1", "Corn x1", "Bell Pepper x1", "Prismatic Crop x2"] 
+        },
+        { 
+          "type": "Prismatic", 
+          "items": ["Tomato x1", "Corn OR Violet Corn x1", "Bone Blossom x3"] 
+        },
+        { 
+          "type": "Transcendent", 
+          "items": ["Grand Tomato x1", "Sugarglaze x1", "Bone Blossom x3"] 
+        }
+      ]
+    },
+    {
+      "name": "Corndog",
+      "img" : "https://dl.dropbox.com/scl/fi/309vdh2zx2jq3yk9jj35n/Corndogimage.png?rlkey=51wzt83m1uhrm1arr90coctao&st=ebm4kwb2&dl=0",
+      "types": [
+        { 
+          "type": "Legendary", 
+          "items": ["Gleamroot x1", "Pepper x1", "Corn x1"] 
+        },
+        { 
+          "type": "Mythical", 
+          "items": ["Giant Pinecone x1", "Pepper x1", "Corn x1"] 
+        },
+        { 
+          "type": "Divine", 
+          "items": ["Giant Pinecone x1", "Pepper x2", "Corn x2"] 
+        },
+        { 
+          "type": "Prismatic", 
+          "items": ["Giant Pinecone x1", "Pepper x1", "Corn x1", "Bone Blossom x2"] 
+        },
+        { 
+          "type": "Transcendent", 
+          "items": ["Violet Corn x1", "Giant Pinecone x1", "Bone Blossom x3"] 
+        }
+      ]
+    }    
+  ],
+  
+  "crops": [
+    {
+      "name" : "Carrot",
+      "img": "https://dl.dropbox.com/scl/fi/vasqyc0nb0qz7nc6p8ef2/CarrotProduce-1.png?rlkey=hzv1rosn1k8l2gondaut8kyi2&st=6vlmkueb&dl=0",
+      "rarity": "Common",
+      "source": 1,
+      "averageGrowthTime": "7s",
+      "harvestType": 1
+    },
+    {
+      "name" : "Strawberry",
+      "img": "https://dl.dropbox.com/scl/fi/p737vmh760f6jymr926v8/Strawberry-1.png?rlkey=g9csl2xm8hcaz7mvxwzpgmiao&st=oqpdz5q3&dl=0",
+      "rarity": "Common",
+      "source": 1,
+      "averageGrowthTime": "1m 20s",
+      "harvestType": 2 
+    },
+    {
+      "name" : "Blueberry",
+      "img": "https://dl.dropbox.com/scl/fi/51quvcb5se2jplb2vl5ap/Blueberry-1.png?rlkey=4hyas61xd6qgk24j3vtbdvelx&st=48ab0baz&dl=0",
+      "rarity": "Uncommon",
+      "source": 1,
+      "averageGrowthTime": "1m 40s",
+      "harvestType": 2
+    },
+    {
+      "name" : "Orange Tulip",
+      "img": "https://dl.dropbox.com/scl/fi/cnnmlgaxz1dxg1es6pq3e/Orangetulip-1.png?rlkey=lq9y9a3f9f2stk4uhomlk4yk4&st=hs93eg6t&dl=0",
+      "rarity": "Uncommon",
+      "source": 1,
+      "averageGrowthTime": "7s",
+      "harvestType": 1
+    },
+    {
+      "name" : "Corn",
+      "img": "https://dl.dropbox.com/scl/fi/wvkyagthfkebh39nnz20o/CornCropsPic.png?rlkey=zyaqp7cx19jeeyd6hqiwvjxfm&st=8kyd1p8d&dl=0",
+      "rarity": "Rare",
+      "source": 1,
+      "averageGrowthTime": "1m 49s",
+      "harvestType": 2
+    },
+    {
+      "name" : "Foxglove",
+      "img": "    https://dl.dropbox.com/scl/fi/dysyr5sthhsjgyrqoloxg/Foxgloveproduce.png?rlkey=67q2o79f8uit9ekqega6x58l8&st=x95rsm3b&dl=0",
+      "rarity": "Rare",
+      "source": 2,
+      "averageGrowthTime": "7m 20s",
+      "harvestType": 2
+    },
+    {
+      "name" : "Tomato",
+      "img": "https://dl.dropbox.com/scl/fi/hkbzr4r5258grs7lglxbm/Tomato-1.png?rlkey=ahzg1l34vgjnpso4em6hm01pz&st=40n3ur97&dl=0",
+      "rarity": "Rare",
+      "source": 1,
+      "averageGrowthTime": "18m 22s",
+      "harvestType": 2
+    },
+    {
+      "name" : "Apple",
+      "img": "https://dl.dropbox.com/scl/fi/vvhdjwi0f5fwm60c7ndgi/Applefruiticon.png?rlkey=n884kffu6iysonjslzf5o6r8d&st=55ucryga&dl=0",
+      "rarity": "Legendary",
+      "source": 1,
+      "averageGrowthTime": "36m 40s",
+      "harvestType": 2
+    },
+    {
+      "name" : "Enkaku",
+      "img": "https://dl.dropbox.com/scl/fi/oovnr6y62iph1yi50fw4a/EnkakuProduce.png?rlkey=lgzgo7sf28x71ulqpgwzluodu&st=lnbxstwh&dl=0",
+      "rarity": "Legendary",
+      "source": 2,
+      "averageGrowthTime": "2h 17m",
+      "harvestType": 2
+    },
+    {
+      "name" : "Pumpkin",
+      "img": "https://dl.dropbox.com/scl/fi/i078n2tj2561hk3wl8d4i/Pumpkin_produce.png?rlkey=esjuxyp7j3aunkb20ft24fm40&st=q8lq86ow&dl=0",
+      "rarity": "Legendary",
+      "source": 1,
+      "averageGrowthTime": "33m 20s",
+      "harvestType": 1
+    },
+    {
+      "name" : "Cactus",
+      "img": "https://dl.dropbox.com/scl/fi/qnimwk1fh6lp68bfrxfge/CactusProduceIcon.png?rlkey=1bzvy9gvky243jos0oxlagfns&st=zbfnqyfh&dl=0",
+      "rarity": "Mythical",
+      "source": 1,
+      "averageGrowthTime": "37m 53s",
+      "harvestType": 2
+    },
+    {
+      "name" : "Amberheart",
+      "img": "https://dl.dropbox.com/scl/fi/b0z600dkgs6dek6h49y6x/AmberheartProduce.png?rlkey=4jrulpjgujjtmbugkq6bjiy5s&st=9795ni92&dl=0",
+      "rarity": "Mythical",
+      "source": 2,
+      "averageGrowthTime": "5h 37m",
+      "harvestType": 2
+    },
+    {
+      "name" : "Mango",
+      "img": "https://dl.dropbox.com/scl/fi/29qyju62bqm3vhshsbo1m/Mango_produce.png?rlkey=epa3j6auz874vuikfkgoybzs0&st=ww0668jj&dl=0",
+      "rarity": "Mythical",
+      "source": 1,
+      "averageGrowthTime": "22m 49s",
+      "harvestType": 2
+    },
+    {
+      "name" : "Cacao",
+      "img": "https://dl.dropbox.com/scl/fi/mosm0rcznxlthju48z8mp/CacaoIcon.png?rlkey=9z6853ali9ojr3yphas12ouit&st=c5tjtdk0&dl=0",
+      "rarity": "Divine",
+      "source": 1,
+      "averageGrowthTime": "13m 48s",
+      "harvestType": 2
+    },
+    {
+      "name" : "Princess Thorn",
+      "img": "https://dl.dropbox.com/scl/fi/hzwfdt1vahbnrs1qfvms4/PrincessThornProduce.png?rlkey=atdlj4dwax2x5egwda3v35va4&st=s7rj4wsc&dl=0",
+      "rarity": "Divine",
+      "source": 1,
+      "averageGrowthTime": "3h 3m",
+      "harvestType": 2
+    },
+    {
+      "name" : "Pepper",
+      "img": "https://dl.dropbox.com/scl/fi/osfpfnoxyt1tik15guoiq/PepperCropsPic.png?rlkey=man9yah44m2rkfgglcmrrpomq&st=o16yitw0&dl=0",
+      "rarity": "Divine",
+      "source": 1,
+      "averageGrowthTime": "10m",
+      "harvestType": 2
+    },
+    {
+      "name" : "Giant Pinecone",
+      "img": "https://dl.dropbox.com/scl/fi/bca1fo3f5mvge8a5zb47o/Giant_pinecone.png?rlkey=072r7ajzjjgj7e8q1on7xmjsg&st=putg36e9&dl=0",
+      "rarity": "Prismatic",
+      "source": 1,
+      "averageGrowthTime": "4h 7m",
+      "harvestType": 2
+    },
+    {
+      "name" : "Romanesco",
+      "img": "https://dl.dropbox.com/scl/fi/xmdx00varg919jteszfk8/RomanescoProduce.png?rlkey=z1c68s8sq77wwirklf0shigwa&st=z8wsfzrr&dl=0",
+      "rarity": "Prismatic",
+      "source": 1,
+      "averageGrowthTime": "5h 50m",
+      "harvestType": 2
+    },    
+    {
+      "name" : "Wispwing",
+      "img": "https://dl.dropbox.com/scl/fi/1evso679buiz8puu7ogvv/Wispwing_Produce.png?rlkey=s2sj41amca9f889xqbvey5erl&st=zxr23nr3&dl=0",
+      "rarity": "Prismatic",
+      "source": 1,
+      "averageGrowthTime": "18h 48m",
+      "harvestType": 2
+    },
+    {
+      "name" : "Bone Blossom",
+      "img": "https://dl.dropbox.com/scl/fi/hqqmdwnptonvguvd8jv23/BoneBlossomCrop.png?rlkey=oheso9ar0cj5kyc62m6ozckfe&st=ck8mqfkc&dl=0",
+      "rarity": "Transcendent",
+      "source": 2,
+      "averageGrowthTime": "2h 52m",
+      "harvestType": 2
+    }
+  ]
+}

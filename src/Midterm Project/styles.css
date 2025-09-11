@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* GENERAL */
+@media(max-width: 800px) {
+  main {
+    min-height: 100vh !important;
+  }
+}
+
+@media(min-width: 800px) {
+  main {
+    min-height: 50vh !important;
+  }
+}
+
+/* HEADER */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    -outline: 0.5px solid red;
+}
+
+.navbar {
+  background-color: #ff8d21;
+}
+
+.nav-link,
+.fa-burger {
+  color: #002366;
+}
+
+.navbar-title {
+  font-size: 18px;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  border: none;
+  box-shadow: none;
+}
+
+/* FOOTER */
+footer {
+  background-color: #ff8d21;
+  color: #002366;
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.2s ease-in-out;
+}
+
+footer a:hover {
+  color: white;
+}
+
+footer .fa-solid {
+  margin-right: 5px;
+}
+
+.fa-brands {
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+.fa-facebook:hover {color: #3b5998}
+.fa-instagram:hover {color: #E1306C}
+.fa-telegram:hover {color: #0088CC}
+.fa-youtube:hover {color: #FF0000}
+
+/* GENERAL */
+.subtitle {
+  font-size: 14px;
+  font-style: italic;
+}
+
+.carousel {
+  margin: 10px;
+} 
+
+.carousel-item img {
+  width: 100%;
+  object-fit: cover;
+}
+
+
+/* HOME PAGE */
+.fa-chart-line,
+.fa-file-pen,
+.fa-layer-group,
+.fa-info-circle {
+  color: black !important;
+}
+
+
+.stats p,
+.description p {
+  font-size: 14px;
+}
+
+.stats-table {
+  margin-left: 10px;
+}
+
+.stats-table * {
+  font-size: 14px;
+  margin: 0;
+}
+
+.stats i,
+.stats th {
+  margin-right: 5px;
+  color: #002366;
+}
+
+.stats-table-1 th {
+  min-width: 5px;
+  text-align: center;
+}
+
+.stats-table-2 th {
+  min-width: 90px;
+}
+
+
+.categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-auto-rows: 150px;
+  gap: 15px;
+  grid-auto-flow: dense;
+}
+
+.category {
+  position: relative;
+  height: 150px;  
+  box-shadow: inset 0 0 200px rgba(0, 0, 0, 0.9);
+  transition: all 0.3s ease-in-out;
+}
+
+.category-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80%;
+  width: 80%;
+  object-fit: cover;
+}
+
+.category-title {
+  position: absolute;
+  bottom: -10px;
+  left: 10px;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.categories:hover .category:not(:hover) {
+  transform: scale(0.95);
+}
+
+.category:hover {
+  transform: scale(1.05);
+}
+
+
+.about-text {
+  text-align: justify;
+}
+
+
+@media(min-width: 800px) {
+  .home-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-auto-rows: auto;
+    grid-auto-flow: dense;
+    place-items: center;
+  }
+  
+  .home-content aside {
+    grid-column: 1;
+    grid-row: 1 / span 3;
+  }
+  
+  .home-content section:nth-of-type(1) {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  
+  .home-content section:nth-of-type(2) {
+    grid-column: 2;
+    grid-row: 2;
+  }
+}
+
+/* RECIPES PAGE */
+
+.recipes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-auto-rows: 150px;
+  gap: 20px;
+  grid-auto-flow: dense;
+}
+
+.recipe {
+  position: relative;
+  height: 150px;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+  box-shadow: inset 0 0 200px rgba(0, 0, 0, 0.9);
+}
+
+.recipe-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height:100%;
+  object-fit: cover;
+}
+
+.recipe-title {
+  position: absolute;
+  bottom: -20px;
+  width: 100px;
+  color: white;
+}
+
+
+.recipe-tier {
+  height: 18px;
+}
+
+
+.modal-content {
+  --angle: 0deg;
+  border: 3px solid;
+  border-image: conic-gradient(from var(--angle), red, yellow, lime, aqua, blue, magenta, red) 1;
+  animation: 5s rotate linear infinite;    
+}
+@keyframes rotate {
+  to {--angle: 360deg}
+}
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}    
+
+
+.recipes .recipe:hover {
+  transform: scale(1.05);
+}
+
+.recipes:hover .recipe:not(:hover) {
+  transform: scale(0.95);
+}
+
+
+@media(min-width: 800px) {
+  .recipes-content {
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    grid-auto-rows: auto auto;
+    grid-auto-flow: dense;
+    align-items: center;
+  }
+  
+  .recipes-content aside {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  
+  .recipes-content section:nth-of-type(1) {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+  }
+  
+  .recipes-content section:nth-of-type(2) {
+    grid-column: 2;
+    grid-row: 2;
+  }
+}
+
+/* CROPS PAGE */
+
+.crops {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-auto-rows: 150px;
+  gap: 20px;
+  grid-auto-flow: dense;
+}
+
+.crop {
+  position: relative;
+  height: 150px;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+  box-shadow: inset 0 0 200px rgba(0, 0, 0, 0.9);
+}
+
+.crop.card .tier {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  height: 16px;
+}
+
+.crop-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height:80%;
+  object-fit: cover;
+}
+
+.crop-title {
+  position: absolute;
+  bottom: -20px;
+  width: 100px;
+  color: white;
+}
+
+
+.crop-table th {
+  padding-right: 20px;
+}
+
+.crop-table .tier {
+  height: 16px;
+  outline: 0.5px solid red;
+}
+
+
+.modal-content {
+  --angle: 0deg;
+  border: 3px solid;
+  border-image: conic-gradient(from var(--angle), red, yellow, lime, aqua, blue, magenta, red) 1;
+  animation: 5s rotate linear infinite;    
+}
+@keyframes rotate {
+  to {--angle: 360deg}
+}
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}    
+
+
+.crops .crop:hover {
+  transform: scale(1.05);
+}
+
+.crop:hover .crop:not(:hover) {
+  transform: scale(0.95);
+}
+
+
+@media(min-width: 800px) {
+  .crops-content {
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    grid-auto-rows: auto auto;
+    grid-auto-flow: dense;
+    align-items: center;
+  }
+  
+  .crops-content aside {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  
+  .crops-content section:nth-of-type(1) {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+  }
+  
+  .crops-content section:nth-of-type(2) {
+    grid-column: 2;
+    grid-row: 2;
+  }
+}

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Page title</title>
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/69faae9203.js" crossorigin="anonymous"></script>
+  
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="javascript.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="https://dl.dropbox.com/scl/fi/6n992angwxolaospc9ff7/gaglogo.jpeg?rlkey=88kfmh7xnjnrwluiybi65f12m&st=9cpwlhva&dl=0" height="30px">
+        <span class="fw-bold navbar-title">Grow a Garden Guide</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content">
+        <i class="fa-solid fa-burger fa-1.5x"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-content">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active fw-bold" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold" href="crops.html">Crops</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold" href="pets.html">Pets</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold" href="recipes.html">Recipes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold" href="crop-mutations.html">Crop Mutations</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search">
+          <button class="btn btn-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+  
+  <main>
+    <div class="home-content mx-3">
+      <section class="mt-4">
+        <div class="title-container">
+          <h2 class="fw-bold text-center">Welcome to Grow a Garden Guide</h2>
+          <p class="subtitle fw-light text-center">Your guide to crops, pets, recipes, and other information in Grow a Garden. Explore different categories, track real-time stats, and master your garden adventure.</p>
+        </div>
+      </section>
+      
+      <aside class="my-4">     
+        <div class="stats card mx-3 border border-success">
+          <div class="card-body">
+            <h5 class="card-title fw-bold text-center">Grow a Garden Statistics <i class="fa-solid fa-chart-line"></i></h5>
+            <div class="card-text">
+              <p class="mt-2 mb-1 border-bottom border-success"></p>
+              <table class="stats-table stats-table-1">
+                <tr>
+                  <th><i class="fa-solid fa-address-card"></i></th>
+                  <td><span id="stats-name">Grow a Garden</span></td>
+                </tr>
+                <tr>
+                  <th><i class="fa-solid fa-users"></i></th>
+                  <td><span id="stats-active-players">1,243,844</span> Active Players</td>
+                </tr>
+                <tr>
+                  <th><i class="fa-solid fa-star"></i></th>
+                  <td><span id="stats-favorited-count">8,647,578</span> Favorites</td>
+                </tr>
+                <tr>
+                  <th><i class="fa-solid fa-eye"></i></th>
+                  <td><span id="stats-total-visits">29,836,663,683</span> Total Visits</td>
+                </tr>
+              </table>
+              <p class="mt-2 mb-1 border-bottom border-success"></p>
+              <table class="stats-table stats-table-2">
+                <tr>
+                  <th>Creator:</th>
+                  <td>The Garden Game</td>
+                </tr>
+                <tr>
+                  <th>Genre:</th>
+                  <td>Simulation</td>
+                </tr>
+                <tr>
+                  <th>Sub-genre:</th>
+                  <td>Tycoon</td>
+                </tr>
+                <tr>
+                  <th>Max Players:</th>
+                  <td>5 Players</td>
+                </tr>
+                <tr>
+                  <th>Created at:</th>
+                  <td><span id="stats-created-at">03-25-2025 10:32:09 PM</span></td>
+                </tr>
+                <tr>
+                  <th>Updated at:</th>
+                  <td><span id="stats-updated-at">09-07-2025 9:42:42 PM</span></p></td>
+                </tr>
+              </table>
+            </div>            
+          </div>
+        </div>
+        
+        <div class="description card mx-3 mt-3 border border-primary">
+          <div class="card-body">
+            <h5 class="card-title fw-bold text-center">Description <i class="fa-solid fa-file-pen"></i></h5>            
+            <div class="card-text">
+              <p class="mt-2 mb-1 border-top border-primary"></p> 
+              <p id="description" class="m-0">
+                Welcome to Grow a Garden🍅      
+                <br><br>Are you ready to grow your very own garden? Buy seeds from the shop when they restock, plant them, wait for them to grow, and collect the profits! Flex fruits and finds on friends, and have fun!              
+                <br><br>[How To Plant]
+                <br>• Equip your seed you want to plant!
+                <br>• Click in your farm on the brown plots to plant!
+                <br>• Wait to see it start growing!
+                <br>• After its fully grown, it is time to harvest the goods!
+                <br><br>Remember, your garden literally grows while you are offline⭐                
+              </p>
+            </div>
+        </div>
+      </aside>
+      
+      <section class="my-4">
+        <div class="categories-container">
+          <h5 class="fw-bold text-center">Categories <i class="fa-solid fa-layer-group"></i></h5>
+          <p class="mt-2 mb-1 border-bottom border-dark"></p>
+          <div class="categories mt-3">
+            <div class="category border border-dark rounded">
+              <a href="crops.html">
+                <img class="category-image" src="https://dl.dropbox.com/scl/fi/gbg2ayelvohbz6o5fas7o/CandyBlossomPic.png?rlkey=k0h875nvmd4yqx5my8070j6en&st=tyezi4dk&dl=0" alt=""> 
+                <p class="category-title">Crops</p>
+              </a>
+            </div>
+            <div class="category border border-dark rounded">
+              <a href="pets.html">
+                <img class="category-image" src="https://dl.dropbox.com/scl/fi/hzcmuw4769mrvzyvyha6y/Raccon_Better_Quality.png?rlkey=lpzpoocnv9dokmo62yanf84k6&st=ts6jc7u3&dl=0" alt="">
+                <p class="category-title">Pets</p>
+              </a>
+            </div>
+            <div class="category border border-dark rounded">
+              <a href="recipes.html">
+                <img class="category-image" src="https://dl.dropbox.com/scl/fi/0ny2qnwzcwj9u1vypmkqw/Cooking_Kit.png?rlkey=iusl3lr98tniufqzn7fcs1iyq&st=a8wtu6am&dl=0" alt="">
+                <p class="category-title">Recipes</p>
+              </a>
+            </div>
+            <div class="category border border-dark rounded">
+              <a href="crop_mutations.html">
+                <img class="category-image" src="https://dl.dropbox.com/scl/fi/5ywqt364volrbf7p1ddeu/ThunderstormEventIcon.png?rlkey=xcljugpwyhie2xtwkpaxgwdu3&st=xy2er4sd&dl=0" alt="">
+              </a>
+              <p class="category-title">Crop Mutations</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-container mt-4">
+          <h5 class="fw-bold text-center">About <i class="fa-solid fa-info-circle"></i></h5>
+          <p class="mt-2 mb-1 border-bottom border-dark"></p>
+          <p class="about-text">
+&nbsp;&nbsp; Grow a Garden is a <b>Roblox</b> indie game developed by <b>Splitting Point Studios</b>, and partly <b>Do Big Studios</b>. Players start with a small patch of land to plant and nurture them as they grow into beautiful flowers, fruits, and vegetables. Players can harvest and sell produce to earn <b>Sheckles</b> that can be used to purchase seeds, gears, eggs, and decorative items.
+<br><br>
+&nbsp;&nbsp; Players can also complete quests and participate in seasonal events to earn free seeds, gears, pets, decorative items, and event-limited items.
+<br><br>
+&nbsp;&nbsp; As players experience the game, players will be able to enhance their crop growing experience by expanding land, using gears to enhance the crop growing experience, hatch eggs to earn pets with unique passive abilities to enhance crop growing experience, and experience various weathers to mutate and increase the value of their produce to earn more <b>Sheckles</b> or fulfill in-game quests.            
+          </p>
+        </div>
+      </section>
+    </div>
+  </main>
+  
+  
+  <footer class="pt-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 mb-3">
+          <h5 class="fw-bold">About Us</h5>
+          <p>Short description about your company.</p>
+        </div>
+        <div class="contact-us col-md-3 mb-3">
+          <h5 class="fw-bold">Contact Us</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="#"><i class="fa-solid fa-house"></i>123 St., Manila, Philippines, 1234</a>     
+            </li>      
+            <li>
+              <a href="#"><i class="fa-solid fa-phone"></i>(+63) 912-345-6789</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-envelope"></i>gagrecipes@gmail.com</a>
+            </li>             
+          </ul>
+        </div>
+        <div class="col-md-3 mb-3">
+          <h5 class="fw-bold">Follow Us</h5>
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+           <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-telegram"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="col-md-3 mb-3">
+          <h5 class="fw-bold">Legal</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="text-center py-3 border-top mt-3">
+        © 2025 Grow a Garden Guide
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
